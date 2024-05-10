@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.32"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.24",
+    "dotenv": "^16.3.1"
+  }
+}
