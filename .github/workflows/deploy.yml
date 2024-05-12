@@ -46,10 +46,10 @@ jobs:
       - name: show dirs
         run: ls -l
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
           # Upload dist folder
-          path: './dist'
+          path: '.vitepress/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
