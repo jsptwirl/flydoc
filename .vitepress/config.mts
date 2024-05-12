@@ -5,7 +5,7 @@ const code2 = `async function embedChatbot(){const chatBtnId="fastgpt-chatbot-bu
 // console.log(process.env.BaseUrl)
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base: base,
+  base: "/flydoc",
   lang: "zh-cn",
   title: "Flydoc",
   description: "Flydoc Web Site",
